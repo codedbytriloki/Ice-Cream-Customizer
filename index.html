@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ice Cream Customizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Ice Cream Customizer</h2>
+    <div class="box-container">
+      <label for="flavor">Choose a flavor : </label><br>
+      <select id="flavor">
+        <option value="🍦">Vanilla</option>
+        <option value="🍫">Chocolate</option>
+        <option value="🍓">Strawberry</option>
+      </select>
+    </div>
+    <div class="info">
+      <p>Select toppings : </p>
+      <label><input type="checkbox" value="🥜">Nuts</label>
+      <label><input type="checkbox" value="🍯">Syrup</label>
+      <label><input type="checkbox" value="🍬">Sprinkles</label>
+    </div>
+    <div class="result">
+      <button id="showBtn">Show Ice Cream</button>
+      <div class="output" id="result"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
